@@ -1,0 +1,42 @@
+body{
+  background-color: #FAE3ED;
+}
+.App {
+  text-align: center;
+  background-image: url(../image/1.jpg);
+  background-repeat: no-repeat;
+}
+.main{
+  display: inline-block;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 250px;
+  padding: 20px 100px;
+  background-color:rgb(217, 202, 232);
+  text-align: center;
+  box-shadow: 0px 0px 5px lightgray;
+  cursor: pointer;
+}
+.time{
+  font-size: 18px;
+}
+input{
+  background-color:lightgray;
+  margin: 10px;
+  padding:0 20px 0 10px;
+}
+.btn{
+  background-color: black;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px 20px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 10px;
+}
+.btn:hover{
+  background-color:white;
+  color: black;
+  transition: 1s;
+}
